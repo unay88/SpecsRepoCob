@@ -11,9 +11,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   
   spec.source_files = "sdkCob/**/*.{swift,h,m}"
-  spec.resources = "sdkCob/Assets.xcassets"
   spec.resource_bundles = {
-    'sdkCobResources' => ['sdkCob/Assets.xcassets/**/*']
+    'sdkCobResources' => ['sdkCob/Assets.xcassets']
   }
   
   # Dependencies - git source specified in Podfile
